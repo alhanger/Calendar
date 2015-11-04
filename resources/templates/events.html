@@ -8,6 +8,16 @@
 
 <br><br>
 
+{{#isAsc}}
+<a href="/?isAsc=false">Descending</a>
+{{/isAsc}}
+
+{{^isAsc}}
+<a href="/?isAsc=true">Ascending</a>
+{{/isAsc}}
+
+<br><br>
+
 {{#events}}
 {{description}} {{startDate}}<br>
 {{/events}}
